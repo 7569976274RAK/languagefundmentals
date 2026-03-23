@@ -1,5 +1,5 @@
 package com.languagefundamentals;
-//java is not 100% objecct oriented programming language because of primitive data types
+//java is not 100% object oriented programming language because of primitive data types
 
 //byte ---> short---> int----> long
 public class TestDataTypesDemo1 {
@@ -12,7 +12,7 @@ public class TestDataTypesDemo1 {
 	byte b2 = (byte) 256;// Explicit Type casting
 
 // if we give more than 32767 will get ---? 2^-15 to 2^15
-// Compile EError ---->cannot convert int to short
+// Compile Error ---->cannot convert int to short
 	short s = 32767;// 2bytes ---> 32767
 
 // Range for int ---> -2^31 to 2^31 ---> -2147483648 ---> 2147483647
